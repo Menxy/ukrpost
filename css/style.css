@@ -5,6 +5,7 @@ body {
   width: 100vw;
   font-family: 'Rubik', sans-serif;
 }
+
 header img {
   margin-top: 1.7vw;
   padding: 0 9vw;
@@ -88,7 +89,7 @@ header img {
   position: absolute;
   top: -20vh;
 }
-.delivery-form input {
+.delivery-form-input {
   display: block;
   width: 36vw;
   color: #757575;
@@ -116,4 +117,69 @@ header img {
 }
 .delivery-form button:hover {
   box-shadow: 0px 10px 55px 0px rgba(41, 42, 44, 0.17);
+}
+.inter {
+  min-height: 85vh;
+  background-color: #042C4B;
+  padding: 0 9vw;
+}
+.inter h1 {
+  display: block;
+  width: 50vw;
+  color: white;
+  padding-top: 74px;
+  font-size: 48px;
+}
+.inter p {
+  color: #99A2AA;
+  padding-bottom: 27px;
+}
+.inter button {
+  width: 19vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 7px;
+  border: none;
+  padding: 20px;
+  background-color: #FDC13D;
+  font-size: 20px;
+  font-weight: 700;
+}
+.financial {
+  padding: 0 9vw;
+  height: 65vw;
+}
+.financial-top {
+  background-color: #FDC13D;
+  margin-top: 15vh;
+  border-radius: 7px;
+  padding: 3vw 5vw;
+
+}
+.financial h3 {
+  font-size: 24px;
+}
+.financial a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0E2F4B;
+  line-height: 20px;
+}
+.financial h1 {
+  font-size: 48px;
+  margin-top: 20vh;
+}
+.financial-services {
+  display: flex;
+}
+.financial-item {
+  width: 15vw;
+}
+.financial-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 59vw;
 }
